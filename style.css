@@ -1419,9 +1419,9 @@ nav .menu {
   .ztrip-hinh {
     width: 100%;
     padding: 0;
-    max-width: 400px;
-    min-height: 300px; /* ✅ Thêm: đảm bảo có chiều cao tối thiểu */
-    position: relative; /* ✅ Thêm: để chứa ảnh tuyệt đối bên trong */
+     max-width: 400px;
+  min-height: 300px; /* ✅ Thêm: đảm bảo có chiều cao tối thiểu */
+  position: relative; /* ✅ Thêm: để chứa ảnh tuyệt đối bên trong */
   }
 
   .ztrip-hinh-noi img {
@@ -1433,10 +1433,6 @@ nav .menu {
 }
 
 @media (max-width: 767px) {
-  .nav__bars-btn {
-    font-size: 1.3rem;
-    color: #0074ff;
-  }
   .container {
     padding: 7px 15px;
   }
