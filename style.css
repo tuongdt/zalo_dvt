@@ -1195,10 +1195,10 @@ nav .menu {
     align-items: center;
   }
   .container {
-    padding: 8px 17px;
+    padding: 20px 25px;
   }
   .nav-bartop img {
-    height: 45px;
+    height: 50px;
     padding: 10px 0;
   }
   .cta button {
@@ -1433,6 +1433,18 @@ nav .menu {
 }
 
 @media (max-width: 767px) {
+  .nav__bars-btn {
+  font-size: 1.3rem;
+  color: #0074ff;
+  display: none;
+}
+  .container {
+    padding: 7px 15px;
+  }
+  .nav-bartop img {
+    height: 30px;
+    padding: 10px 0;
+  }
   .cta {
     display: none;
   }
